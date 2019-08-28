@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 
 class HomeViewModel : ViewModel() {
+
     private val _navigateToSearch = MutableLiveData<Boolean>()
     val navigateToSearch: LiveData<Boolean>
         get() = _navigateToSearch
